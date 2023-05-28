@@ -16,3 +16,7 @@ if __name__ == "__main__":
 #app.run starts the app and contains variables and configures the app to run on localhost ("host=0.0.0.0"), the port (you can use a different one than 80) and sets it in debug mode ("debug=True")
     app.run(host='0.0.0.0', port=80, debug=True)
 ```
+3. Now, if you get back to your terminal, running the following command should result in white website showing "Web App with Python Flask!" when you open [this link (http://localhost/)](http://localhost/)
+```bash
+python3 app.py
+```
