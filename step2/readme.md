@@ -1,6 +1,6 @@
 # Writing your first flask app
 1. We gonna start with a simple hello world app! The first step is creating a file app.py in your application folder.
-2. Subsequently use Visual Studio Code to insert following code step by step: 
+2. Subsequently use Visual Studio Code to insert following code step by step. Lines that start with "#“ do not contain code, but helpful instructions for you: 
 ```python
 #Load the applications you need to run for your first webserver
 from flask import Flask
