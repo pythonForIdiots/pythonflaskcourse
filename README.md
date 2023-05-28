@@ -33,4 +33,8 @@ Install python and flask and write a simple app on Mac using Terminal and Visual
     ```console
     source env/bin/activate
     ```
+4. Install your Flask Server and SQL Alchemy to connect it to a DB later
+    ```console
+    pip3 install flask flask-sqlalchemy
+    ```
   
