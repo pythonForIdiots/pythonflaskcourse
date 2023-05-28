@@ -1,5 +1,5 @@
 # pythonflaskcourse
-Install python and flask and write a simple app on Mac using Terminal and Visual Code
+Install python and flask and write a simple app on Mac using Terminal and Visual Code. This guide can not be translated 1 to 1 to windows. 
 
 ## Step 1: Install the tools you need
 1. Install Xcode from the App Store
@@ -20,7 +20,7 @@ Install python and flask and write a simple app on Mac using Terminal and Visual
 6. Open Visual Code and open that folder
 
 ## Step 2: Prepare your environment
-1. Inside Visual Code open the terminal and enter following command to install virtualenv allowing your to run all dependicies and tools you need straight from the folder of your application: 
+1. Inside Visual Code open the terminal and enter following command to install [virtualenv](https://github.com/pypa/virtualenv) allowing your to run all dependicies and tools you need straight from the folder of your application (this allows you to share your app easily with other people): 
     ```console
     pip3 install virtualenv
     ```
@@ -28,3 +28,9 @@ Install python and flask and write a simple app on Mac using Terminal and Visual
     ```console
     virtualenv env
     ```
+    "env" hereby stands for the folder used to place your environment, it can have any name but env is       common.
+3. activate your environment with the following terminal command: 
+    ```console
+    source env/bin/activate
+    ```
+  
